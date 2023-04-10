@@ -32,7 +32,7 @@ the rest of the information will not be extracted, as it's
 unavailable.
 ### Advanced Stage - Scraping More Pages
 This stage of the scraping process involves further crawling,
-it's stages are:
+its stages are:
 #### Admin List Enrichment
 In this stage the scraper iterates over the retrieved
 admins list and then move to each admin's page. If the admin
