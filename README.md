@@ -1,5 +1,23 @@
 # fb_group_scraper
 
+- [fb_group_scraper](#fb-group-scraper)
+  * [Overview](#overview)
+    + [Main Stage - Scraping The Group About Page](#main-stage---scraping-the-group-about-page)
+    + [Advanced Stage - Scraping More Pages](#advanced-stage---scraping-more-pages)
+      - [Admin List Enrichment](#admin-list-enrichment)
+      - [Topic List](#topic-list)
+      - [Pinned Posts](#pinned-posts)
+  * [Installation](#installation)
+  * [Usage](#usage)
+    + [CLI](#cli)
+    + [Output JSON Structure](#output-json-structure)
+      - [Admins Data](#admins-data)
+      - [Featured Posts](#featured-posts)
+    + [Group Filter](#group-filter)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## Overview
 This project is a scrapper for Facebook groups.
 It as 2 main stages:
@@ -40,6 +58,22 @@ Steps:
 
 ## Usage
 ### CLI
+
+```
+Usage: main.py [OPTIONS] DEST_DIR INPUT_PATH
+
+Arguments:
+  DEST_DIR    [required]
+  INPUT_PATH  [required]
+
+Options:
+  --sleep-time INTEGER            [default: 2]
+  --group-filter-loc TEXT
+  --override / --no-override      [default: no-override]
+  --advance-scrape / --no-advance-scrape
+                                  [default: advance-scrape]
+  --help                          Show this message and exit.
+```
 
 | Argument                               | Required | Default Value    | Description                                                                                                                                                                                                                                |
 |----------------------------------------|----------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
