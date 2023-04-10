@@ -1,0 +1,31 @@
+{
+    "description": "This group is open for anyone to join or share with others. Please post any meal idea that is something you do or can do for a reasonable cost. Lets see what we can come up with to help each other out.",
+    "is_private": false,
+    "n_members": 5036419,
+    "creation_date": "28/11/2010",
+    "admins": [
+        {
+            "id": "100066223702715",
+            "name": "Cheap Meal Ideas"
+        },
+        {
+            "id": "pfbid02L14GFHsLDfAV6QovTFfbJ75zuiEwN2AnY5ccG2q8nGPw7Ac7QLauXx5dUMWQL9Yxl",
+            "name": "Mary Weston"
+        },
+        {
+            "id": "pfbid02sc3Gg6ympDUD188MwMHtcWgwGUhxnofe4E9P3gYeFV6CLvetGNFVj6emo8n1xcUal",
+            "name": "April Frazier"
+        },
+        {
+            "id": "pfbid08bTpgkaob7tEJoNA3Ds4Zs8cqDteXN5VmX41tfrJ9iW1am65iXjKHVB564CrU2n7l",
+            "name": "Nella Hanson"
+        },
+        {
+            "id": "pfbid0ALGJT3qtK4GnoMTXBPatpd8wFasFWZ2cycE5EQ8iwWCDPJrJTWgUscfryCvTmLh9l",
+            "name": "Kris Burns"
+        }
+    ],
+    "daily_posts_frequency": 114.76666666666667,
+    "weekly_new": 0.0,
+    "locations": []
+}

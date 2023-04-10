@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "fb-group-scraper"
+version = "0.1.0"
+description = "scraper for FB groups"
+authors = ["Guy Shalev"]
+readme = "README.md"
+packages = [{include = "fb_group_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+playwright = "^1.32.1"
+dateparser = "^1.1.8"
+tqdm = "^4.65.0"
+typer = "^0.7.0"
+black = "^23.3.0"
+pylint = "^2.17.1"
+isort = "^5.12.0"
+pre-commit = "^3.2.1"
+pytest = "^7.2.2"
+pytest-mock = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
