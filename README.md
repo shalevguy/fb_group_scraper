@@ -103,7 +103,7 @@ All the keys are specified in the enums.py file.
 | topics                | list[dict] | List of JSONs representing the group's hashtags and the amount of posts that relate to them. |
 | feat                  | list[dict] | List of JSONs representing the group's pinned posts. See Below.                              |
 
-#### Admins Data
+#### Admin Data
 
 | Key            | Type                      | Description                                                                                                    |
 |----------------|---------------------------|----------------------------------------------------------------------------------------------------------------|
