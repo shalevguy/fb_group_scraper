@@ -21,7 +21,7 @@
 ## Overview
 This project is a scrapper for Facebook groups.
 It as 2 main stages:
-### Main Stage - Scraping The Group About Page
+### Main Stage - Scraping The Group's About Page
 In this stage the scrapper first downloads the group's about page.
 In this stage the scrapper first attempts to extract the
 group's description and its privacy. If the group is public
