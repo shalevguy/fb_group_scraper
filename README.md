@@ -2,7 +2,7 @@
 
 - [fb_group_scraper](#fb-group-scraper)
   * [Overview](#overview)
-    + [Main Stage - Scraping The Group About Page](#main-stage---scraping-the-group-about-page)
+    + [Main Stage - Scraping The Group's About Page](#main-stage---scraping-the-group's-about-page)
     + [Advanced Stage - Scraping More Pages](#advanced-stage---scraping-more-pages)
       - [Admin List Enrichment](#admin-list-enrichment)
       - [Topic List](#topic-list)
