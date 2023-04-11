@@ -20,7 +20,7 @@
 
 ## Overview
 This project is a scrapper for Facebook groups.
-It as 2 main stages:
+It has 2 main stages:
 ### Main Stage - Scraping The Group's About Page
 In this stage the scrapper first downloads the group's about page.
 In this stage the scrapper first attempts to extract the
@@ -50,11 +50,14 @@ posts
 Note: This project was developed in python 3.11 and is will not run using versions earlier than 3.10 as it uses the match case statement feature which didn't exist in earlier versions.
 
 Steps:
-1. Clone repository
-2. Install poetry
-3. run poetry install
-4. install pre-commit
-5. run playwright install
+1. Clone repository and CD into it.
+2. Install poetry. (see [here](https://python-poetry.org/docs/))
+3. Install dependencies:
+```
+poetry install
+pre-commit install
+playwright install
+```
 
 ## Usage
 ### CLI
